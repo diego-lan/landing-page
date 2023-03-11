@@ -71,9 +71,19 @@ a {
     gap: 30px;
 }
 
-.text-and-button,
-.awesome-website-container .image {
+.awesome-website-container {
     flex: 1 1 0px;
+    justify-content: space-between;
+}
+
+.text-and-buton {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 500px;
+    height: auto;
 }
 
 .title {
@@ -84,12 +94,6 @@ a {
 
 .description {
     margin-bottom: 10px;
-}
-
-.image {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(97, 106, 125);
 }
 
 .image p {
@@ -138,7 +142,7 @@ a {
     
 }
 
-img {
+.mountains {
     height: 200px;
     width: 200px;
     border-style: solid;
