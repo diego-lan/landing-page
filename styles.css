@@ -18,7 +18,7 @@ body {
     color: #E5E7EB;
 }
 
-.padding-20-50 {
+.padding-20-150 {
     padding: 20px 150px;
 }
 
@@ -27,8 +27,7 @@ body {
 .header,
 .awesome-website {
     display: flex;
-    flex: 1;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header-container {
@@ -45,6 +44,7 @@ body {
     justify-content: center;
     font-size: 24px;
     color: #F9FAF8;
+    font-family: sans-serif;
 }
 
 .nav-bar {
@@ -100,7 +100,7 @@ a {
 
 .sign-up {
     background-color: #3882F6;
-    padding: 5px 30px;
+    padding: 10px 30px;
     border: 0px;
     border-radius: 5px;
     font-weight: bold;
@@ -109,5 +109,98 @@ a {
 /* Random information section */
 
 .random-information {
+    justify-content: center;
     display: flex;
+    flex-direction: column;
+}
+
+.random-information-container {
+    display: flex;
+    justify-content: center;
+    flex: 0 1 300px;
+    gap: 100px;
+}
+
+.random-information-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+
+.img-and-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 5px;
+}
+
+.image-subtext {
+    width: 200px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Quote section */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 420px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.quote div {
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align-last: right;
+}
+
+.blue-container {
+    background-color: #3882F6;
+    display: flex;
+    margin: 50px 0 50px 0;
+    padding: 30px 200px;
+    border-radius: 5px;
+}
+
+.blue-container .header-logo .title {
+    font-size: 24px;
+}
+
+.button-border {
+    border-color: #F9FAF8;
+}
+
+.but {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #E5E7EB;
+    border-radius: 10px;
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: sans-serif;
 }
